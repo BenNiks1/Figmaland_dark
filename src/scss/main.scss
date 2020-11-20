@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Graphik Web";
+  src: url("Graphik-Medium-Web.eot");
+  src: url("Graphik-Medium-Web.eot?#iefix") format("embedded-opentype"),
+    url("Graphik-Medium-Web.woff") format("woff"),
+    url("Graphik-Medium-Web.ttf") format("truetype"),
+    url("Graphik-Medium-Web.svg#Graphik-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Graphik Web";
+  src: url("Graphik-Regular-Web.eot");
+  src: url("Graphik-Regular-Web.eot?#iefix") format("embedded-opentype"),
+    url("Graphik-Regular-Web.woff") format("woff"),
+    url("Graphik-Regular-Web.ttf") format("truetype"),
+    url("Graphik-Regular-Web.svg#Graphik-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Graphik Web", sans-serif;
+  background: #181818;
+  color: #fff;
+}
+
+@import './parts/header.scss';
+@import './parts/contents.scss';
+@import './parts/features.scss';
+@import './parts/gallery.scss';
+@import './parts/partners.scss';
+@import './parts/testimonials.scss';
+@import './parts/trial.scss';
+@import './parts/footer.scss';
+
+
+
+
+
+
+
+
